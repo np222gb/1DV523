@@ -1,0 +1,20 @@
+<div id="github-issues" style="padding-top: 3px;" >
+    <h1 id = "issue-head">All Issues:</h1>
+    <ul id="list-all-issues">
+        {{!-- looping through each issue on github and displaying them --}}
+         {{#each issues}}
+        <li id={{this.url}}>
+            <h3 id="issue-title">{{this.title}}</h3>
+            <p class="issue-comments">Nr of Comments: {{this.comments}}</p>
+            <a href="{{this.html_url}}">Issue Link</a>
+            <p class="issue-updated">Updated: {{this.updated_at}}</p>
+        </li>
+        {{/each}}
+    </ul>
+</div>
+<div id= "issue-notifications">
+    <h1>Notifications</h1>
+    <ul id="list-all-notifications">
+
+    </ul>
+</div> 

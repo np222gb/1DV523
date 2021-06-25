@@ -1,0 +1,94 @@
+html {
+  background: url("../img/background.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+html,
+body {
+  overflow: hidden;
+  height: 100%;
+}
+
+h1 {
+  font-family: Optima, sans-serif;
+}
+
+#issue-head {
+  position: absolute;
+  left: 64%;
+}
+
+li {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  height: 180px;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: lightcyan;
+  margin-bottom: 5px;
+  margin-left: 15%;
+  list-style-type: none;
+}
+
+#list-all-notifications {
+  height: 80%;
+  width: 35%;
+  position: absolute;
+  border-radius: 10px;
+  overflow: auto;
+  top: 12%;
+  right: 64%;
+}
+#list-all-issues {
+  height: 80%;
+  width: 35%;
+  position: absolute;
+  border-radius: 10px;
+  overflow: auto;
+  top: 11%;
+  right: 10%;
+}
+#created {
+  background-color: rgba(1, 255, 1, 0.3);
+}
+#deleted {
+  background-color: rgba(255, 18, 1, 0.3);
+}
+#opened {
+  background-color: rgba(1, 255, 1, 0.3);
+}
+#closed {
+  background-color: rgba(255, 18, 1, 0.3);
+}
+.user-image {
+  float: left;
+  margin-right: 10px;
+  width: 60px;
+  height: 60px;
+}
+.github-user {
+  float: left;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-left: 18px;
+}
+.user-action {
+  position: relative;
+  top: 130px;
+  right: 249px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.user-action p {
+  width: 650px;
+  text-align: center;
+}
+#issue-title {
+  background-color: skyblue;
+  border-radius: 10px 10px 0px 0px;
+}
